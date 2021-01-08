@@ -1,1 +1,18 @@
-// Начните писать стили здесь
+// переменные
+@import "variables.scss";
+// общие стили
+@import "global.scss";
+// миксины
+@import "mixin.scss";
+// блоки
+@import "./bloks/page-header.scss";
+@import "./bloks/main-nav.scss";
+@import "./bloks/page-main.scss";
+@import "./bloks/main-header.scss";
+@import "./bloks/programs.scss";
+@import "./bloks/feature.scss";
+@import "./bloks/live-example";
+@import "./bloks/contacts";
+@import "./bloks/footer";
+@import "./bloks/social";
+@import "./bloks/copyright";

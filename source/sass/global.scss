@@ -1,0 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.visually-hidden {
+	display: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+  font-family: "Oswald", "Arial", sans-serif;
+}

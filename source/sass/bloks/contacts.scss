@@ -1,0 +1,23 @@
+.contacts__wrapper{
+  margin: 19px 19px 22px 19px;
+  display: flex;
+}
+.contacts__slogan {
+  @include oswald;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $black-light;
+  margin: 0;
+  padding: 3px;
+  flex-basis: 50%;
+
+}
+.contacts__adress {
+  @include arial;
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-grey;
+  margin: 0;
+  flex-basis: 50%;
+}
