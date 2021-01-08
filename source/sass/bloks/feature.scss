@@ -1,23 +1,30 @@
 .feature {
   margin: 27px 20px 27px 20px;
 }
+
 .feature__title {
-  @include oswald;
+  font-style: normal;
+  font-weight: normal;
   font-size: 36px;
   line-height: 40px;
   color: $black;
   margin-top: 38px;
 }
+
 .feature__list {
   margin: 0;
   padding: 0;
 }
+
 .feature__item {
   list-style: none;
   margin-bottom: 15px;
 }
+
 .feature__description {
-  @include arial;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   color: $dark-grey;
@@ -25,8 +32,9 @@
   align-items: center;
   margin: 0;
 }
+
 .feature__description::before {
-  content: url('/img/advantage-leaf@1x.png');
+  content: url("/img/advantage-leaf@1x.png");
   background-color: $green;
   width: 60px;
   height: 60px;

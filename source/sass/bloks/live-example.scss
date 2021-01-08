@@ -2,30 +2,40 @@
   background-color: $spec-grey-4;
   padding: 0 20px 0 20px;
 }
+
 .live-example__tittle {
-  @include oswald;
+  font-style: normal;
+  font-weight: normal;
   font-size: 36px;
   line-height: 40px;
   color: $black;
   margin: 0;
   padding: 27px 0 33px 0;
 }
+
 .live-example__description {
-  @include arial;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   color: $dark-grey;
   margin: 0;
 }
+
 .live-example__statlist-parameter {
-  @include oswald;
+  font-style: normal;
+  font-weight: normal;
   font-size: 24px;
   line-height: 24px;
   text-align: center;
   color: $black;
 }
+
 .live-example__statlist-description {
-  @include arial;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 12px;
   line-height: 12px;
   display: flex;
@@ -33,18 +43,22 @@
   text-align: center;
   color: $dark-grey;
 }
+
 .live-example__spending {
-  @include oswald;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  color:$black;
+  color: $black;
   margin-bottom: 42px;
 }
+
 .live-example__statlist-img {
   margin-bottom: 23px;
 }
+
 .live-example__choice-img {
-  padding-bottom : 25px;
+  padding-bottom: 25px;
 }
