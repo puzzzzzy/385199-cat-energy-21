@@ -3,7 +3,7 @@
 // общие стили
 @import "global.scss";
 // миксины
-@import "mixin.scss";
+//@import "mixin.scss";
 // блоки
 @import "./bloks/page-header.scss";
 @import "./bloks/main-nav.scss";
@@ -11,8 +11,9 @@
 @import "./bloks/main-header.scss";
 @import "./bloks/programs.scss";
 @import "./bloks/feature.scss";
-@import "./bloks/live-example";
-@import "./bloks/contacts";
-@import "./bloks/footer";
-@import "./bloks/social";
-@import "./bloks/copyright";
+@import "./bloks/live-example.scss";
+@import "./bloks/contacts.scss";
+@import "./bloks/footer.scss";
+@import "./bloks/social.scss";
+@import "./bloks/copyright.scss";
+@import "./bloks/form.scss";

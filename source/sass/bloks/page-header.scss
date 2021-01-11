@@ -2,6 +2,10 @@
   background-color: $white;
   width: 320px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .page-header__img-logo {
@@ -13,9 +17,10 @@
 
 .page-header__burger-button {
   background-image: url("/img/icon-close.svg");
-  background-color: $white;
   background-repeat: no-repeat;
-  padding-bottom: -20px;
+  background-color: $white;
+  padding: 0;
+  margin-right: 23px;
   border: none;
   width: 18px;
   height: 18px;

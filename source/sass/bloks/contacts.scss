@@ -1,6 +1,10 @@
 .contacts__wrapper {
-  margin: 19px 19px 22px 19px;
+  padding: 19px 19px 22px 19px;
   display: flex;
+}
+
+.contacts__wrapper--bgcolor {
+  background-color: $grey;
 }
 
 .contacts__slogan {
@@ -24,4 +28,8 @@
   color: $dark-grey;
   margin: 0;
   flex-basis: 50%;
+}
+
+.contacts__map {
+  display: flex;
 }

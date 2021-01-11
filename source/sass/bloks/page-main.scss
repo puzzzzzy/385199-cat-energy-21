@@ -1,4 +1,27 @@
 .page-main {
   width: 320px;
   margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.page-main__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 36px;
+  color: $black;
+  margin: 0;
+  padding: 27px 0 37px 20px;
+  border-top: 1px solid $spec-grey-3;
+}
+
+.page-main__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $black;
+  margin: 0;
+  padding: 0 0 39px 20px;
 }
